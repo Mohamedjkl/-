@@ -1,7 +1,8 @@
 from rich.console import Console
 from rich.text import Text
 import pyfiglet
-
+import os
+os.system("clear") 
 console = Console()
 
 # إنشاء نص كبير باستخدام pyfiglet
@@ -41,9 +42,10 @@ mklnh=input("")
 mkln("♕check number: "+ mklnh+"♕ ,")
 time.sleep(1)
 mkln("♕check bypass whatsapp♕ ,")
-time.sleep(1)
+time.sleep(4)
 mkln("♕Successful bypass whatsapp♕ , ")
 time.sleep(1)
 mkln("♕Get verification code♕ ,")
 time.sleep(4)
 mkln("♕Successful Get verification♕ : " +code()+ " .") 
+print("\n") 
